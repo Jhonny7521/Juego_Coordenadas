@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Carton Six';
+    src: url('CartonSix.woff2') format('woff2'),
+        url('CartonSix.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
