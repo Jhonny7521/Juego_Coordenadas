@@ -1892,9 +1892,9 @@ if (reversed == null) { reversed = false; }
 	this.txt_ind.name = "txt_ind";
 	this.txt_ind.textAlign = "center";
 	this.txt_ind.lineHeight = 22;
-	this.txt_ind.lineWidth = 122;
+	this.txt_ind.lineWidth = 137;
 	this.txt_ind.parent = this;
-	this.txt_ind.setTransform(75.85,18.5);
+	this.txt_ind.setTransform(77.55,18.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.txt_ind).wait(1));
 
@@ -2838,40 +2838,40 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/aceite.png?1660757543540", id:"aceite"},
-		{src:"images/arroz.png?1660757543540", id:"arroz"},
-		{src:"images/atun.png?1660757543540", id:"atun"},
-		{src:"images/azucar.png?1660757543540", id:"azucar"},
-		{src:"images/btn_.png?1660757543540", id:"btn_"},
-		{src:"images/btn_g.png?1660757543540", id:"btn_g"},
-		{src:"images/cereal.png?1660757543540", id:"cereal"},
-		{src:"images/cuadrilla.png?1660757543540", id:"cuadrilla"},
-		{src:"images/cuadrilla_g.png?1660757543540", id:"cuadrilla_g"},
-		{src:"images/cursor.png?1660757543540", id:"cursor"},
-		{src:"images/destellos1.png?1660757543540", id:"destellos1"},
-		{src:"images/destellos2.png?1660757543540", id:"destellos2"},
-		{src:"images/fideos.png?1660757543540", id:"fideos"},
-		{src:"images/fondo_E1.jpg?1660757543540", id:"fondo_E1"},
-		{src:"images/fresa.png?1660757543540", id:"fresa"},
-		{src:"images/ind.png?1660757543540", id:"ind"},
-		{src:"images/ind2.png?1660757543540", id:"ind2"},
-		{src:"images/ind_b.png?1660757543540", id:"ind_b"},
-		{src:"images/ind_f.png?1660757543540", id:"ind_f"},
-		{src:"images/jugo.png?1660757543540", id:"jugo"},
-		{src:"images/leche.png?1660757543540", id:"leche"},
-		{src:"images/lechuga.png?1660757543540", id:"lechuga"},
-		{src:"images/manzana.png?1660757543540", id:"manzana"},
-		{src:"images/naranja.png?1660757543540", id:"naranja"},
-		{src:"images/nota_final.png?1660757543540", id:"nota_final"},
-		{src:"images/pan.png?1660757543540", id:"pan"},
-		{src:"images/rayitos1.png?1660757543540", id:"rayitos1"},
-		{src:"images/rayitos2.png?1660757543540", id:"rayitos2"},
-		{src:"images/te.png?1660757543540", id:"te"},
-		{src:"images/tprobzoder.png?1660757543540", id:"tprobzoder"},
-		{src:"images/tprobzoizq.png?1660757543540", id:"tprobzoizq"},
-		{src:"images/tprocbza.png?1660757543540", id:"tprocbza"},
-		{src:"images/tprocrpo.png?1660757543540", id:"tprocrpo"},
-		{src:"images/yogurt.png?1660757543540", id:"yogurt"}
+		{src:"images/aceite.png?1660762748159", id:"aceite"},
+		{src:"images/arroz.png?1660762748159", id:"arroz"},
+		{src:"images/atun.png?1660762748159", id:"atun"},
+		{src:"images/azucar.png?1660762748159", id:"azucar"},
+		{src:"images/btn_.png?1660762748159", id:"btn_"},
+		{src:"images/btn_g.png?1660762748159", id:"btn_g"},
+		{src:"images/cereal.png?1660762748159", id:"cereal"},
+		{src:"images/cuadrilla.png?1660762748159", id:"cuadrilla"},
+		{src:"images/cuadrilla_g.png?1660762748159", id:"cuadrilla_g"},
+		{src:"images/cursor.png?1660762748159", id:"cursor"},
+		{src:"images/destellos1.png?1660762748159", id:"destellos1"},
+		{src:"images/destellos2.png?1660762748159", id:"destellos2"},
+		{src:"images/fideos.png?1660762748159", id:"fideos"},
+		{src:"images/fondo_E1.jpg?1660762748159", id:"fondo_E1"},
+		{src:"images/fresa.png?1660762748159", id:"fresa"},
+		{src:"images/ind.png?1660762748159", id:"ind"},
+		{src:"images/ind2.png?1660762748159", id:"ind2"},
+		{src:"images/ind_b.png?1660762748159", id:"ind_b"},
+		{src:"images/ind_f.png?1660762748159", id:"ind_f"},
+		{src:"images/jugo.png?1660762748159", id:"jugo"},
+		{src:"images/leche.png?1660762748159", id:"leche"},
+		{src:"images/lechuga.png?1660762748159", id:"lechuga"},
+		{src:"images/manzana.png?1660762748159", id:"manzana"},
+		{src:"images/naranja.png?1660762748159", id:"naranja"},
+		{src:"images/nota_final.png?1660762748159", id:"nota_final"},
+		{src:"images/pan.png?1660762748159", id:"pan"},
+		{src:"images/rayitos1.png?1660762748159", id:"rayitos1"},
+		{src:"images/rayitos2.png?1660762748159", id:"rayitos2"},
+		{src:"images/te.png?1660762748159", id:"te"},
+		{src:"images/tprobzoder.png?1660762748159", id:"tprobzoder"},
+		{src:"images/tprobzoizq.png?1660762748159", id:"tprobzoizq"},
+		{src:"images/tprocbza.png?1660762748159", id:"tprocbza"},
+		{src:"images/tprocrpo.png?1660762748159", id:"tprocrpo"},
+		{src:"images/yogurt.png?1660762748159", id:"yogurt"}
 	],
 	preloads: []
 };
