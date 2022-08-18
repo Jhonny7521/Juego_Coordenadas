@@ -199,6 +199,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,442,333);
 p.nominalBounds = new cjs.Rectangle(0,0,58,33);
 
 
+(lib.temp = function() {
+	this.initialize(img.temp);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,75,50);
+
+
 (lib.tprobzoder = function() {
 	this.initialize(img.tprobzoder);
 }).prototype = p = new cjs.Bitmap();
@@ -327,6 +333,39 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.tpro_bzo_der, new cjs.Rectangle(0,0,132,88), null);
+
+
+(lib.temp_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Capa_2
+	this.txt_temp = new cjs.Text("01 : 59", "26px 'Carton Six'", "#00FFFF");
+	this.txt_temp.name = "txt_temp";
+	this.txt_temp.textAlign = "center";
+	this.txt_temp.lineHeight = 31;
+	this.txt_temp.lineWidth = 64;
+	this.txt_temp.parent = this;
+	this.txt_temp.setTransform(37.5,11.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.txt_temp).wait(1));
+
+	// Capa_1
+	this.instance = new lib.temp();
+	this.instance.setTransform(-4,0,1.0933,1);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.temp_1, new cjs.Rectangle(-4,0,82,50), null);
 
 
 (lib.Símbolo8 = function(mode,startPosition,loop,reversed) {
@@ -2400,6 +2439,13 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
+	// reloj
+	this.temp = new lib.temp_1();
+	this.temp.name = "temp";
+	this.temp.setTransform(59.75,37.2,1,1,0,0,0,37,25);
+
+	this.timeline.addTween(cjs.Tween.get(this.temp).wait(1));
+
 	// btn_finish
 	this.btn_finish = new lib.btn_finalizar();
 	this.btn_finish.name = "btn_finish";
@@ -2411,7 +2457,7 @@ if (reversed == null) { reversed = false; }
 	// nota
 	this.ind = new lib.ind_1();
 	this.ind.name = "ind";
-	this.ind.setTransform(125.35,108.15,1,1,0,0,0,113.5,57);
+	this.ind.setTransform(125.35,123,1,1,0,0,0,113.5,57);
 
 	this.timeline.addTween(cjs.Tween.get(this.ind).wait(1));
 
@@ -2425,7 +2471,7 @@ if (reversed == null) { reversed = false; }
 
 	// t
 	this.instance = new lib.tiagopro();
-	this.instance.setTransform(136.4,299.4,0.799,0.799,0,0,180,43.4,25.2);
+	this.instance.setTransform(113.45,315.6,0.799,0.799,0,0,180,43.4,25.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -2482,19 +2528,19 @@ if (reversed == null) { reversed = false; }
 		var nomProd = ["EL ARROZ VA","LOS FIDEOS VAN","EL AZÚCAR VA","LA LECHE VA","LOS CEREALES VAN","EL ACEITE VA","EL TÉ VA","EL JUGO VA","LA MANZANA VA","EL PAN VA","EL YOGURT VA","LA FRUTILLA VA","LA LECHUGA VA"];
 		var letras = ['A','B','C','D','E','F','G','H','I'];
 		
-		var p1 = ["H3","F5","H1","C1"];//1 arroz
-		var p2 = ["E2","H5","A6","G5"];//2 fideo
-		var p3 = ["A5","D2","F2","H2"];//3 azucar
-		var p4 = ["C1","E4","I7","A3"];//4 leche
-		var p5 = ["G5","A6","E7","G6"];//5 cereal
-		var p6 = ["H7","A3","G6","B4"];//6 aceite
-		var p7 = ["C7","B2","D3","I7"];//7 te
-		var p8 = ["A2","G7","B2","F2"];//8 jugo
-		var p9 = ["E4","I3","A3","B7"];//9 manzana
-		var p10 = ["I5","D5","C5","A6"];//10 pan
-		var p11 = ["G1","B5","H5","E3"];//11 yogurt
-		var p12 = ["E6","H2","D1","D5"];//12 frutilla
-		var p13 = ["B3","C7","F4","I2"];//13 lechuga
+		var p1 = [" H 3 "," F 5 "," H 1 "," C 1 "];//1 arroz
+		var p2 = [" E 2 "," H 5 "," A 6 "," G 5 "];//2 fideo
+		var p3 = [" A 5 "," D 2 "," F 2 "," H 2 "];//3 azucar
+		var p4 = [" C 1 "," E 4 "," I 7 "," A 3 "];//4 leche
+		var p5 = [" G 5 "," A 6 "," E 7 "," G 6 "];//5 cereal
+		var p6 = [" H 7 "," A 3 "," G 6 "," B 4 "];//6 aceite
+		var p7 = [" C 7 "," B 2 "," D 3 "," I 7 "];//7 te
+		var p8 = [" A 2 "," G 7 "," B 2 "," F 2 "];//8 jugo
+		var p9 = [" E 4 "," I 3 "," A 3 "," B 7 "];//9 manzana
+		var p10 = [" I 5 "," D 5 "," C 5 "," A 6 "];//10 pan
+		var p11 = [" G 1 "," B 5 "," H 5 "," E 3 "];//11 yogurt
+		var p12 = [" E 6 "," H 2 "," D 1 "," D 5 "];//12 frutilla
+		var p13 = [" B 3 "," C 7 "," F 4 "," I 2 "];//13 lechuga
 		
 		var productos = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13];
 		
@@ -2525,6 +2571,10 @@ if (reversed == null) { reversed = false; }
 		esc_1.visible = true;
 		
 		var _current = 0;
+		var seg = 30;
+		var min = 1;
+		var time;
+		var timer;
 		
 		function getRandomInt(min, max) {
 			min = Math.ceil(min);
@@ -2562,6 +2612,7 @@ if (reversed == null) { reversed = false; }
 			
 			ocultarPaquetesInd();
 			ocultarPaquetesCuad();
+			setProperties();
 			
 			esc_2.ind.txt_ind.text = `${nomProd[posNom]} 
 			en la cuadrilla
@@ -2569,8 +2620,10 @@ if (reversed == null) { reversed = false; }
 					
 			_current = 2;
 			
+			esc_2.temp.txt_temp.text = `0${min} : ${seg}`;
+			
 			moveStage();		
-			setProperties();
+			startClock();
 			
 			intento = intento+1;
 			console.log(intento);
@@ -2615,7 +2668,8 @@ if (reversed == null) { reversed = false; }
 			
 			ptj = 0;
 			posNom = 0;
-			seg = 120;
+			seg = 30;
+			min = 1;
 			
 			_current = 0;
 			
@@ -2711,6 +2765,44 @@ if (reversed == null) { reversed = false; }
 			
 			var pag = "esc_" + (_current-1);
 			_this[pag].visible=false;
+		}
+		
+		function startClock(){
+			
+			timer = setInterval(function () {
+				seg = seg-1;
+				
+				if(seg < 10){
+					time = `0${min} : 0${seg}`;
+				}else{
+					time = `0${min} : ${seg}`
+				}
+				
+				if(seg < 0){
+					min = min-1;
+					seg = 59;
+				} else {
+					esc_2.temp.txt_temp.text = time;
+				}
+				
+				if(min <= 0 && seg <= 0){
+					clearInterval(timer);
+					timeOver()
+				}
+			}, 1000);
+		}
+		
+		function timeOver(){
+			
+			_end();
+		}
+		
+		function _end(){
+			
+			clearInterval(timer);
+			_current = 3;
+			moveStage();
+			feedback();
 		}
 		
 		function onMouseDown(e) {
@@ -2838,40 +2930,41 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/aceite.png?1660762748159", id:"aceite"},
-		{src:"images/arroz.png?1660762748159", id:"arroz"},
-		{src:"images/atun.png?1660762748159", id:"atun"},
-		{src:"images/azucar.png?1660762748159", id:"azucar"},
-		{src:"images/btn_.png?1660762748159", id:"btn_"},
-		{src:"images/btn_g.png?1660762748159", id:"btn_g"},
-		{src:"images/cereal.png?1660762748159", id:"cereal"},
-		{src:"images/cuadrilla.png?1660762748159", id:"cuadrilla"},
-		{src:"images/cuadrilla_g.png?1660762748159", id:"cuadrilla_g"},
-		{src:"images/cursor.png?1660762748159", id:"cursor"},
-		{src:"images/destellos1.png?1660762748159", id:"destellos1"},
-		{src:"images/destellos2.png?1660762748159", id:"destellos2"},
-		{src:"images/fideos.png?1660762748159", id:"fideos"},
-		{src:"images/fondo_E1.jpg?1660762748159", id:"fondo_E1"},
-		{src:"images/fresa.png?1660762748159", id:"fresa"},
-		{src:"images/ind.png?1660762748159", id:"ind"},
-		{src:"images/ind2.png?1660762748159", id:"ind2"},
-		{src:"images/ind_b.png?1660762748159", id:"ind_b"},
-		{src:"images/ind_f.png?1660762748159", id:"ind_f"},
-		{src:"images/jugo.png?1660762748159", id:"jugo"},
-		{src:"images/leche.png?1660762748159", id:"leche"},
-		{src:"images/lechuga.png?1660762748159", id:"lechuga"},
-		{src:"images/manzana.png?1660762748159", id:"manzana"},
-		{src:"images/naranja.png?1660762748159", id:"naranja"},
-		{src:"images/nota_final.png?1660762748159", id:"nota_final"},
-		{src:"images/pan.png?1660762748159", id:"pan"},
-		{src:"images/rayitos1.png?1660762748159", id:"rayitos1"},
-		{src:"images/rayitos2.png?1660762748159", id:"rayitos2"},
-		{src:"images/te.png?1660762748159", id:"te"},
-		{src:"images/tprobzoder.png?1660762748159", id:"tprobzoder"},
-		{src:"images/tprobzoizq.png?1660762748159", id:"tprobzoizq"},
-		{src:"images/tprocbza.png?1660762748159", id:"tprocbza"},
-		{src:"images/tprocrpo.png?1660762748159", id:"tprocrpo"},
-		{src:"images/yogurt.png?1660762748159", id:"yogurt"}
+		{src:"images/aceite.png?1660803908725", id:"aceite"},
+		{src:"images/arroz.png?1660803908725", id:"arroz"},
+		{src:"images/atun.png?1660803908725", id:"atun"},
+		{src:"images/azucar.png?1660803908725", id:"azucar"},
+		{src:"images/btn_.png?1660803908725", id:"btn_"},
+		{src:"images/btn_g.png?1660803908725", id:"btn_g"},
+		{src:"images/cereal.png?1660803908725", id:"cereal"},
+		{src:"images/cuadrilla.png?1660803908725", id:"cuadrilla"},
+		{src:"images/cuadrilla_g.png?1660803908725", id:"cuadrilla_g"},
+		{src:"images/cursor.png?1660803908725", id:"cursor"},
+		{src:"images/destellos1.png?1660803908725", id:"destellos1"},
+		{src:"images/destellos2.png?1660803908725", id:"destellos2"},
+		{src:"images/fideos.png?1660803908725", id:"fideos"},
+		{src:"images/fondo_E1.jpg?1660803908725", id:"fondo_E1"},
+		{src:"images/fresa.png?1660803908725", id:"fresa"},
+		{src:"images/ind.png?1660803908725", id:"ind"},
+		{src:"images/ind2.png?1660803908725", id:"ind2"},
+		{src:"images/ind_b.png?1660803908725", id:"ind_b"},
+		{src:"images/ind_f.png?1660803908725", id:"ind_f"},
+		{src:"images/jugo.png?1660803908725", id:"jugo"},
+		{src:"images/leche.png?1660803908725", id:"leche"},
+		{src:"images/lechuga.png?1660803908725", id:"lechuga"},
+		{src:"images/manzana.png?1660803908725", id:"manzana"},
+		{src:"images/naranja.png?1660803908725", id:"naranja"},
+		{src:"images/nota_final.png?1660803908725", id:"nota_final"},
+		{src:"images/pan.png?1660803908725", id:"pan"},
+		{src:"images/rayitos1.png?1660803908725", id:"rayitos1"},
+		{src:"images/rayitos2.png?1660803908725", id:"rayitos2"},
+		{src:"images/te.png?1660803908725", id:"te"},
+		{src:"images/temp.png?1660803908725", id:"temp"},
+		{src:"images/tprobzoder.png?1660803908725", id:"tprobzoder"},
+		{src:"images/tprobzoizq.png?1660803908725", id:"tprobzoizq"},
+		{src:"images/tprocbza.png?1660803908725", id:"tprocbza"},
+		{src:"images/tprocrpo.png?1660803908725", id:"tprocrpo"},
+		{src:"images/yogurt.png?1660803908725", id:"yogurt"}
 	],
 	preloads: []
 };
